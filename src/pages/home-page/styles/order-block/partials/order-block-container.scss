@@ -1,0 +1,110 @@
+&__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
+    gap: 32px;
+    margin-bottom: 12px;
+    max-width: calc(100% - 32px);
+
+    @media screen and (min-width:$desktop-break-point) {
+        height: 235px;
+        gap: 40px;
+    }
+}
+
+&__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 93px;
+    gap: 16px;
+    text-align: center;
+
+    @media screen and (min-width:$desktop-break-point) {
+        align-items: center;
+        height: 112px;
+    }
+}
+
+&__title {
+    padding-top: 2px;
+    font-size: var(--title-fontSize);
+    color: var(--title-fontColor);
+    font-weight: bold;
+
+    @media screen and (min-width:$desktop-break-point) {
+        --title-fontSize: 32px;
+    }
+}
+
+&__description {
+    font-size: var(--description-fontSize);
+    color: var(--description-fontColor);
+
+    @media screen and (min-width:$desktop-break-point) {
+        width: calc(100% - 64px);
+        --description-fontSize: 16px;
+    }
+}
+
+&__section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 75px;
+    gap: 44px;
+    padding-right: 5px;
+
+    @media screen and (min-width:$desktop-break-point) {
+        padding-right: 1px;
+        height: 83px;
+        gap: 64px;
+    }
+}
+
+&__icon {
+    height: 24px;
+    width: 24px;
+}
+
+&__plan {
+    font-size: var(--plan-fontSize);
+    color: var(--plan-fontColor);
+    font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 2px;
+
+    @media screen and (min-width:$desktop-break-point) {
+        --plan-fontSize: 18px;
+        line-height: 25px;
+    }
+}
+
+&__price {
+    font-size: var(--price-fontSize);
+    color: var(--price-fontColor);
+
+    @media screen and (min-width:$desktop-break-point) {
+        --price-fontSize: 14px;
+    }
+}
+
+&__link {
+    font-size: var(--link-fontSize);
+    color: var(--link-fontColor);
+    margin-left: 10px;
+    transition: color .2s;
+
+    &:hover {
+        --link-fontColor: #490245;
+    }
+
+    @media screen and (min-width:$desktop-break-point) {
+        text-underline-offset: 4px;
+        --link-fontSize: 16px;
+        margin-left: 48px;
+    }
+}

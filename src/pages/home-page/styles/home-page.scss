@@ -1,0 +1,13 @@
+/// Homepage Styles File
+/// Here we import all the Styles files we need for our Homepage.  
+$tablet-break-point:834px;
+$desktop-break-point:1440px;
+#home-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--home-page-bgColor);
+}
+@import "./order-block/order-block.scss"

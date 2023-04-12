@@ -1,0 +1,50 @@
+/// Root Styles file
+/// Here we define all the root variables we need for our project.
+/// For examples see Material Design color system: https://m2.material.io/design/color/the-color-system.html
+
+:root {
+    --color-on-surface: #000;
+}
+
+#home-page {
+    --home-page-bgColor: #F8F9FE;
+}
+
+.order-block {
+    --order-block-bgColor: #FFFFFF;
+}
+
+.order-block__title {
+    --title-fontSize: 24px;
+    --title-fontColor: #151827;
+}
+
+.order-block__description {
+    --description-fontSize: 14px;
+    --description-fontColor: #85859B;
+}
+
+.order-block__plan {
+    --plan-fontSize: 16px;
+    --plan-fontColor: #151827;
+}
+
+.order-block__price {
+    --price-fontSize: 12px;
+    --price-fontColor: #85859B;
+}
+
+.order-block__link {
+    --link-fontSize: 14px;
+    --link-fontColor: #680262;
+}
+
+.order-block__payment-btn {
+    --payment-btn-bgColor: #680262;
+    --payment-btn-fontColor: #FFFFFF;
+}
+
+.order-block__cancel {
+    --cancel-font-size: 14px;
+    --cancel-fontColor: #151827;
+}

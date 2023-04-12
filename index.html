@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INVO Academy JS Starter with Vite</title>
+</head>
+
+<!-- In order to start your challenge, remove all the content inside <div id="home-page"></div> and start coding :) -->
+
+<body>
+  <div id="home-page">
+      <div class="order-block">
+        <div class="order-block__img-block">
+          <img class='order-block__img' src="/public/images/order-image.png" alt="Order Block Img">
+        </div>
+        <div class="order-block__container">
+          <div class="order-block__text">
+            <h1 class="order-block__title">Order Summary</h1>
+            <p class="order-block__description">You're close! Confirm your purchase and complete your order in the next
+              step</p>
+          </div>
+          <section class="order-block__section">
+            <img class="order-block__icon" src="/public/images/order-icon.png" alt="Order Block Icon">
+            <div class="order-block__subscription">
+              <h2 class="order-block__plan">Annual Plan</h2>
+              <p class="order-block__price">$58.99 / year</p>
+            </div>
+            <a class="order-block__link" href="#">Change</a>
+          </section>
+        </div>
+        <button class="order-block__payment-btn">Proceed to Payment</button>
+        <a class="order-block__cancel" href="#">Cancel Order</a>
+      </div>
+  </div>
+
+  <script type="module" src="/src/global-scripts/main.js"></script>
+  <script type="module" src="/src/pages/home-page/scripts/home-page.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+&__payment-btn {
+    cursor: pointer;
+    height: 56px;
+    width: calc(100% - 32px);
+    background-color: var(--payment-btn-bgColor);
+    border-radius: 16px;
+    color: var(--payment-btn-fontColor);
+    font-weight: 700;
+    transition: background-color .2s;
+    letter-spacing: -0.01em;
+
+    &:hover {
+        --payment-btn-bgColor: #490245;
+    }
+}

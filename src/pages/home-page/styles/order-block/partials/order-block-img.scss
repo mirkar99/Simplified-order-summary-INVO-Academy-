@@ -1,0 +1,24 @@
+&__img-block {
+    max-width: 100%;
+    height: 188px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+    @media screen and (min-width:$desktop-break-point) {
+        height: 232px;
+        margin-bottom: 12px;
+    }
+}
+
+&__img {
+    transform: scale(1.23);
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    @media screen and (min-width:$desktop-break-point) {
+       transform: none;
+    }
+}
